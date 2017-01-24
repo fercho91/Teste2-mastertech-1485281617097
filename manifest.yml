@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Teste2 mastertech
+  host: Teste2-mastertech
+  disk_quota: 1024M
+  services:
+  - Teste2 mastertech-personality_insights
